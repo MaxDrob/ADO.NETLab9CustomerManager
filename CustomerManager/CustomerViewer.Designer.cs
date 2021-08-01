@@ -50,6 +50,7 @@
             this.textBoxCustomer = new System.Windows.Forms.TextBox();
             this.labelid = new System.Windows.Forms.Label();
             this.GridView = new System.Windows.Forms.DataGridView();
+            this.ViporderradioButton = new System.Windows.Forms.RadioButton();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.GridView)).BeginInit();
             this.SuspendLayout();
@@ -196,6 +197,7 @@
             // 
             // groupBox1
             // 
+            this.groupBox1.Controls.Add(this.ViporderradioButton);
             this.groupBox1.Controls.Add(this.OrderradioButton);
             this.groupBox1.Controls.Add(this.CustomerradioButton);
             this.groupBox1.Location = new System.Drawing.Point(469, 109);
@@ -252,6 +254,17 @@
             this.GridView.Size = new System.Drawing.Size(800, 129);
             this.GridView.TabIndex = 19;
             this.GridView.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.GridView_CellContentClick);
+            // 
+            // ViporderradioButton
+            // 
+            this.ViporderradioButton.AutoSize = true;
+            this.ViporderradioButton.Location = new System.Drawing.Point(18, 69);
+            this.ViporderradioButton.Name = "ViporderradioButton";
+            this.ViporderradioButton.Size = new System.Drawing.Size(85, 17);
+            this.ViporderradioButton.TabIndex = 2;
+            this.ViporderradioButton.TabStop = true;
+            this.ViporderradioButton.Text = "radioButton1";
+            this.ViporderradioButton.UseVisualStyleBackColor = true;
             // 
             // CustomerViewer
             // 
@@ -312,6 +325,7 @@
         private System.Windows.Forms.TextBox textBoxCustomer;
         private System.Windows.Forms.Label labelid;
         private System.Windows.Forms.DataGridView GridView;
+        private System.Windows.Forms.RadioButton ViporderradioButton;
     }
 }
 
